@@ -6,6 +6,7 @@ Create or use attached example of *command.list file* to add command to be execu
 
 Command.list use the following format:
 
+```
 <ALIAS>:<COMMAND>
-
+```
 __For complex task it's highly recommended to use a shell script__
