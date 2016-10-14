@@ -10,6 +10,9 @@ Command.list use the following format:
 <ALIAS>:<COMMAND>
 ```
 
+Each command must to be on it's own line.
+
+
 __Dependencies:__
 
 Subprocess module
@@ -17,10 +20,4 @@ Subprocess module
 
 
 
-
-
-
-__*Tip*__
-Each command must to be on it's own line.
-
-__For complex task it's highly recommended to use a shell script__
+__*Tip*__: *For complex task it's highly recommended to use a shell script*
