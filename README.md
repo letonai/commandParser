@@ -14,6 +14,13 @@ __Dependencies:__
 
 Subprocess module
 
+
+
+
+
+
+
+__*Tip*__
 Each command must to be on it's own line.
 
 __For complex task it's highly recommended to use a shell script__
