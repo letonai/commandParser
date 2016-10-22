@@ -1,9 +1,12 @@
 import os,time,re
 import subprocess as sp
 
-FILE="/home/pi/yowsup/command.list"
+FILE="/home/pi/command.list"
 
 class CommandParser(object):
+
+	def __init__(self):
+		print "hi"
 
 	def getCommand(self,command):
 		file = open(FILE,"r+")
@@ -12,7 +15,7 @@ class CommandParser(object):
 		i=0
 		for c in cmd:
 			c=c.rstrip('\n')
-			if c.startswith(command.split(' ')[0]):
+			if c.startswith(command):
 				return str(c.split(":")[1])
 	 
 			i=+1
